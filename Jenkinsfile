@@ -40,7 +40,7 @@ pipeline {
                 echo "Sending email notification for ${env.APP_NAME} version ${env.APP_VERSION}..."
                 
                 // Standard Jenkins mail step implementation
-                mail to: 'team@example.com',
+                mail to: 'diwakar.s2024a@vitstudent.ac.in',
                      subject: "Build Alert: ${env.APP_NAME} - Version ${env.APP_VERSION}",
                      body: "The build for ${env.APP_NAME} version ${env.APP_VERSION} has completed successfully."
             }
