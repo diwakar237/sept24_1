@@ -26,7 +26,7 @@ pipeline {
             }
             steps {
                 // Safe echo workaround to avoid SMTP connection errors
-                echo "Simulating sent email to: team@example.com"
+                echo "Simulating sent email to: diwakar.s2024a@vitstudent.ac.in"
                 echo "Subject: Build Alert: ${env.APP_NAME} - Version ${env.APP_VERSION}"
                 echo "Body: The build for ${env.APP_NAME} version ${env.APP_VERSION} has completed successfully."
             }
